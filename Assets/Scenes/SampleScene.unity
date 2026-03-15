@@ -187,7 +187,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &155176342
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -512,7 +512,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Enter text...
+  m_text: Taco
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -621,10 +621,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8bb2bacc8e881604883a12008e644de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  LeaderBoardText: {fileID: 1266878809}
+  PlayerLabel: {fileID: 755756445}
   PokemonName: {fileID: 166351994}
+  PlayerId: {fileID: 1681382071}
   PokemonId: {fileID: 1495417630}
   PokemonImage: {fileID: 244379081}
   PokemonBtn: {fileID: 1455193206}
+  PlayerUpdateBtn: {fileID: 1005303466}
 --- !u!4 &426208893
 Transform:
   m_ObjectHideFlags: 0
@@ -749,7 +753,7 @@ GameObject:
   - component: {fileID: 755756446}
   - component: {fileID: 755756445}
   m_Layer: 5
-  m_Name: petName
+  m_Name: playerName
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -794,7 +798,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Name: pikachu
+  m_text: 'Name: Taco
 
 '
   m_isRightToLeft: 0
@@ -2312,7 +2316,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Enter text...
+  m_text: 25
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
